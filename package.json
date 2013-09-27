@@ -5,6 +5,6 @@
   "description": "Add a toolbar button and context menu to reload a pdf page in the Adobe Acrobat plugin",
   "author": "Joachim Herb <joachim.herb@gmx.de>",
   "license": "MPL 2.0",
-  "version": "0.4",
+  "version": "0.5",
   "dependencies": ["net-log"]
 }
