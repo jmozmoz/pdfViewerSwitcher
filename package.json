@@ -6,5 +6,15 @@
   "author": "Joachim Herb <joachim.herb@gmx.de>",
   "license": "MPL 2.0",
   "version": "0.6",
-  "dependencies": ["net-log"]
+  "dependencies": ["net-log"],
+
+  "preferences": [
+    {
+        "name": "debugLog",
+        "title": "Debug logging",
+        "description": "Show debug messages in error console.",
+        "type": "bool",
+        "value": false
+    }
+  ]
 }
