@@ -5,7 +5,7 @@
   "description": "Add a toolbar button and context menu to reload a pdf page in the Adobe Acrobat plugin",
   "author": "Joachim Herb <joachim.herb@gmx.de>",
   "license": "MPL 2.0",
-  "version": "0.9.0",
+  "version": "0.9.0alpha1",
   "dependencies": ["net-log"],
 
   "preferences": [
@@ -15,6 +15,14 @@
         "description": "Show debug messages in error console.",
         "type": "bool",
         "value": false
+    },
+    {
+        "name": "enableAllPlugins",
+        "title": "Activate all PDF plugins",
+        "description": "Activate all PDF plugins, so document loading starts immediately",
+        "type": "bool",
+        "value": true
     }
+    
   ]
 }
