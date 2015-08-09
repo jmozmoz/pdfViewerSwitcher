@@ -1,13 +1,13 @@
 {
   "name": "pdfviewerswitcher",
   "fullName": "pdfViewerSwitcher",
-  "id": "jid1-UXDr6c69BeyPVw",
+  "id": "jid1-UXDr6c69BeyPVw@jetpack",
   "description": "Add a toolbar button and context menu to reload a pdf page in the Adobe Acrobat plugin",
   "author": "Joachim Herb <joachim.herb@gmx.de>",
   "license": "MPL 2.0",
-  "version": "0.9.0beta1",
+  "version": "0.9.0beta2",
   "dependencies": ["net-log"],
-
+  "main": "lib/main.js",
   "preferences": [
     {
         "name": "debugLog",
